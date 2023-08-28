@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import mx.gob.imss.cit.ceme.model.entityDto.DelegacionDto;
+import mx.gob.imss.cit.ceme.model.entitydto.DelegacionDto;
 import mx.gob.imss.cit.ceme.model.projection.CatalogoView;
 import mx.gob.imss.cit.ceme.persistence.Delegacion;
 import mx.gob.imss.cit.ceme.service.BaseService;

@@ -10,9 +10,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import mx.gob.imss.cit.ceme.model.entityDto.DelegacionDto;
+import mx.gob.imss.cit.ceme.model.entitydto.DelegacionDto;
 import mx.gob.imss.cit.ceme.model.projection.CatalogoView;
 import mx.gob.imss.cit.ceme.model.record.DelegacionRecord;
 import mx.gob.imss.cit.ceme.persistence.Delegacion;
@@ -25,7 +25,7 @@ import mx.gob.imss.cit.ceme.util.ObjectMapperUtils;
  */
 @Log4j2
 @Service
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class BaseServiceImpl implements BaseService {
 
 	// usar DI por constructor

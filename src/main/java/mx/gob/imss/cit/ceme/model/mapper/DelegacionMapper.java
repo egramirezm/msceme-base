@@ -2,7 +2,7 @@ package mx.gob.imss.cit.ceme.model.mapper;
 
 import java.util.List;
 
-import mx.gob.imss.cit.ceme.model.entityDto.DelegacionDto;
+import mx.gob.imss.cit.ceme.model.entitydto.DelegacionDto;
 import mx.gob.imss.cit.ceme.persistence.Delegacion;
 
 //@Mapper(componentModel = "spring")

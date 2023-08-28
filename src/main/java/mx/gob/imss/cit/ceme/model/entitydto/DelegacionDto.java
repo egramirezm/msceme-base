@@ -1,4 +1,4 @@
-package mx.gob.imss.cit.ceme.model.entityDto;
+package mx.gob.imss.cit.ceme.model.entitydto;
 
 import java.io.Serializable;
 import java.util.Date;
